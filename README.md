@@ -1,11 +1,13 @@
 # olKAN
+<img width="475" height="222" alt="olKAN_blue" src="https://github.com/user-attachments/assets/85d212a0-8412-45f6-8ef9-17ffe37125f0" />
+
 **A lightweight, open-source data catalog platform**
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-olKAN is a lightweight data catalog platform inspired by CKAN but optimized for small teams, rapid deployment, and constrained environments. It provides a minimal, composable, and agent-friendly foundation for building data portals with a focus on simplicity and developer experience.
+olKAN is a lightweight data catalog platform optimized for small teams, rapid deployment, and constrained environments. It provides a minimal, composable, and agent-friendly foundation for building data portals with a focus on simplicity and developer experience.
 
 ## ✨ Features
 
