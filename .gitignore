@@ -1,2 +1,176 @@
 /docs
 .cursor/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.pyre/
+.pytype/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# VS Code
+.vscode/
+.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# MacOS
+.DS_Store
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Local dev
+local_settings.py
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Go
+*.exe
+*.test
+*.out
+
+# Python SDKS
+app/sdks/python/__pycache__/
+app/sdks/python/*.pyc
+
+# TypeScript SDKS
+app/sdks/typescript/node_modules/
+app/sdks/typescript/dist/
+app/sdks/typescript/build/
+
+# JavaScript SDKS
+app/sdks/javascript/node_modules/
+app/sdks/javascript/dist/
+app/sdks/javascript/build/
+
+# Go SDKS
+app/sdks/go/bin/
+app/sdks/go/pkg/
+app/sdks/go/cover.out
+
+# Web static build
+app/web/static/css/*.map
+app/web/static/js/*.map
+
+# Alembic
+alembic/versions/*.pyc
+
+# Test artifacts
+tests/__pycache__/
+tests/**/*.pyc
+tests/**/__pycache__/
+tests/fixtures/*.tmp
+tests/fixtures/*.log
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore generated docs
+docs/_build/
+docs/.doctrees/
+docs/.pytest_cache/
+docs/.mypy_cache/
+docs/.ipynb_checkpoints
+
+# Ignore example outputs
+examples/**/output/
+examples/**/outputs/
+examples/**/results/
+examples/**/logs/
+
+# Ignore CLI cache
+cli_cache/
+cli.log
+
+# Ignore coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Ignore compiled templates
+app/web/templates/**/*.pyc
+app/web/templates/**/__pycache__/
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore secrets
+secrets.*
+*.key
+*.pem
