@@ -2,12 +2,17 @@
 name = "olkan"
 version = "2.0.0"
 description = "AI-Native Data Catalog"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
 fastapi = "^0.104.0"
 uvicorn = {extras = ["standard"], version = "^0.24.0"}
 pydantic-settings = "^2.0.0"
+sqlalchemy = "^2.0.0"
+asyncpg = "^0.30.0"
+psycopg2-binary = "^2.9.0"
+alembic = "^1.13.0"
 
 [build-system]
 requires = ["poetry-core"]
