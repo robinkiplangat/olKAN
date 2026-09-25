@@ -1,3 +1,4 @@
+# olKAN
 <img width="475" height="222" alt="olKAN_blue" src="https://github.com/user-attachments/assets/85d212a0-8412-45f6-8ef9-17ffe37125f0" />
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)
